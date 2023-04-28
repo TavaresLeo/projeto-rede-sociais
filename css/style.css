@@ -65,7 +65,18 @@ iframe#tela {
 }
 
 @media screen and (max-width: 450px) {
-
+    body {
+        background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    main {
+        height: 100vh;
+        position: relative;
+    
+    }
+    
     section#telefone {
         position: absolute;
         top: 50%;
