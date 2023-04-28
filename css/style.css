@@ -63,3 +63,30 @@ iframe#tela {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.781);
     transition: transform .5s, border .6s;
 }
+
+@media screen and (max-width: 450px) {
+
+    section#telefone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 200px;
+        height: 390px;
+        background: url('../imagens/frame-iphone-pq.png');
+        background-repeat: no-repeat;
+    }
+
+    iframe#tela {
+        position: relative;
+        top: 46px;
+        left: 13px;
+        width: 154px;
+        height: 275px;
+    }
+
+    #redes-sociais {
+        padding-top: 10%;
+    }   
+}
